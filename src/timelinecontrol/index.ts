@@ -3,7 +3,7 @@
 import { Timeline } from 'vis-timeline/esnext/esm/vis-timeline-graph2d';
 import { DataSet } from 'vis-data';
 import Hammer from '@egjs/hammerjs';
-import propagating from 'propagating-hammerjs';
+//import propagating from 'propagating-hammerjs';
 
 interface IInputs {
     reloadTimeline: ComponentFramework.PropertyTypes.StringProperty;
