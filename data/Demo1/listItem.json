@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "content": "Operating",
+        "type": "range",
+        "className": "listO",
+        "visClassName": "O",
+        "duration": 3600000,
+        "target": "item"
+    },
+    {
+        "id": "2",
+        "content": "Idle Time",
+        "type": "range",
+        "className": "listIT",
+        "visClassName": "IT",
+        "duration": 3600000,
+        "target": "item"
+    },
+    {
+        "id": "3",
+        "content": "Standby",
+        "type": "range",
+        "className": "listS",
+        "visClassName": "S",
+        "duration": 3600000,
+        "target": "item"
+    },
+    {
+        "id": "4",
+        "content": "Maintenance",
+        "type": "range",
+        "className": "listM",
+        "visClassName": "M",
+        "duration": 3600000,
+        "target": "item"
+    },
+    {
+        "id": "5",
+        "content": "Downtime",
+        "type": "range",
+        "className": "listD",
+        "visClassName": "D",
+        "duration": 3600000,
+        "target": "item"
+    }
+]

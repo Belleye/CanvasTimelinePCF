@@ -1,0 +1,96 @@
+.vis-item.plan {
+    background-color: magenta !important;
+    /* Light grey color */
+    border-width: 0;
+    color: black !important;
+    height: 10px;
+    /* Set the height to 75% of the parent */
+    top: 12.5%;
+    /* Center the bar vertically (100% - 75%) / 2 */
+}
+
+/* Execution bar style */
+.vis-item.execution {
+    background-color: #ffc0cb !important;
+    /* Lightened magenta color */
+    border-color: magenta !important;
+    color: black !important;
+    height: 23px;
+    border-radius: 10px;
+    /* Rounded corners for execution bar */
+}
+
+/* Completion part of the execution bar */
+.vis-item.execution::after {
+    content: '20%';
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    /* Width representing the completion percentage */
+    background-color: magenta;
+    /* Darker grey color for completed part */
+    border-top-left-radius: 10px;
+    /* Rounded corner on the left-top side */
+    border-bottom-left-radius: 10px;
+    /* Rounded corner on the left-bottom side */
+}
+
+/* Downward facing arrows for the plan bar */
+.vis-item.plan::before,
+.vis-item.plan::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    /* Position below the bar */
+
+}
+
+.vis-item.plan::before {
+    border-top: 10px solid magenta;
+    /* Left arrow */
+    left: 0;
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.vis-item.plan::after {
+    border-top: 10px solid magenta;
+    /* Right arrow */
+    right: 0;
+    border-left: 10px solid transparent;
+    border-right: 0px solid transparent;
+}
+
+/* Customize the vis-timeline container */
+#visualization {
+    font-size: 12px;
+    border: 1px solid lightgray;
+    height: 200px;
+    /* Set a fixed height for the timeline */
+    margin-bottom: 20px;
+}
+
+.vis-group-level-unknown-but-gte1 {
+    border: 1px solid gray
+}
+
+.vis-timeline {
+    background-color: white;
+}
+
+.vis-timeline {
+    text-align: left;
+}
+
+.vis-ltr .vis-label.vis-nested-group .vis-inner {
+    padding-left: 30px;
+}
+
+/* width of the groups */

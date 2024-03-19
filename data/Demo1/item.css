@@ -1,0 +1,68 @@
+    body,
+    input {
+        font: 12pt verdana;
+    }
+
+    /* gray background for nightshift, white text color */
+    .vis-time-axis .vis-grid.vis-h18,
+    .vis-time-axis .vis-grid.vis-h19,
+    .vis-time-axis .vis-grid.vis-h20,
+    .vis-time-axis .vis-grid.vis-h21,
+    .vis-time-axis .vis-grid.vis-h22,
+    .vis-time-axis .vis-grid.vis-h23,
+    .vis-time-axis .vis-grid.vis-h0,
+    .vis-time-axis .vis-grid.vis-h1,
+    .vis-time-axis .vis-grid.vis-h2,
+    .vis-time-axis .vis-grid.vis-h3,
+    .vis-time-axis .vis-grid.vis-h4,
+    .vis-time-axis .vis-grid.vis-h5 {
+        background: rgb(200, 200, 200);
+    }
+
+    .vis-item.D {
+        background-color: rgb(255, 0, 0);
+        border-color: rgb(247, 0, 0);
+        color: white;
+    }
+
+    .vis-item.M {
+        background-color: rgb(68, 114, 196);
+        border-color: rgb(68, 114, 196);
+        color: white;
+    }
+
+    .vis-item.O {
+        background-color: rgb(112, 173, 71);
+        border-color: rgb(112, 173, 71);
+        color: white;
+    }
+
+    .vis-item.IT {
+        background-color: rgb(255, 192, 0);
+        border-color: rgb(255, 192, 0);
+        color: white;
+    }
+
+    .vis-item.S {
+        background-color: rgb(237, 125, 49);
+        border-color: rgb(237, 125, 49);
+        color: white;
+    }
+    .vis-item.vis-selected {
+        background-color: white;
+        border-color: black;
+        color: black;
+        box-shadow: 0 0 10px gray;
+    }
+
+    .vis-group-level-unknown-but-gte1 {
+        border: 1px solid gray
+    }
+
+    .vis-timeline {
+        text-align: left;
+    }
+
+    .vis-ltr .vis-label.vis-nested-group .vis-inner {
+        padding-left: 50px;
+      } /* width of the groups */

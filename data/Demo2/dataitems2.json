@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "group": "X",
+        "content": "",
+        "subgroup": "1",
+        "start": "2014-04-01",
+        "end": "2014-04-19",
+        "className": "plan"
+    },
+    {
+        "id": "2",
+        "group": "Y",
+        "content": "",
+        "subgroup": "2",
+        "start": "2014-04-05",
+        "end": "2014-04-16",
+        "className": "execution"
+    }
+]

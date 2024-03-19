@@ -1,0 +1,19 @@
+[
+    {
+        "id": "tasks",
+        "content": "Tasks",
+        "nestedGroups": [
+            "X",
+            "Y"
+        ],
+        "showNested": true
+    },
+    {
+        "id": "X",
+        "content": "Plan"
+    },
+    {
+        "id": "Y",
+        "content": "Execute"
+    }
+]

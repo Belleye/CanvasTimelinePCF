@@ -1,0 +1,91 @@
+.list-items {
+    flex: 0 0 auto; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    gap: 0.5rem; /* Space between items */
+    padding: 1rem; /* Padding inside the container */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+    border: 1px solid #ccc; /* A subtle border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #fff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* A light shadow for depth */
+    max-height: 400px; /* Maximum height before scrolling */
+    width: 100px !important;
+    
+}
+
+#unique-timeline-id {
+    /* ... other properties ... */
+    flex-grow: 1; /* Grow to take up remaining space */
+}
+
+/* Specific styles for each item based on className */
+.listO {
+    background-color: rgb(112, 173, 71);
+    /* Light grey background */
+    color: white;;
+    /* Dark grey text */
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(112, 173, 71);
+    /* Light grey border */
+    cursor: pointer;
+}
+
+.listIT {
+    background-color: rgb(255, 192, 0);
+    /* Light blue background */
+    color: white;;
+    /* Dark blue text */
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(255, 192, 0);
+    /* Light blue border */
+    cursor: pointer;
+}
+
+.listS {
+    background-color: rgb(237, 125, 49);
+    /* Light blue background */
+    color: white;;
+    /* Dark blue text */
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(237, 125, 49);
+    /* Light blue border */
+    cursor: pointer;
+}
+
+.listM {
+    background-color: rgb(68, 114, 196);
+    /* Light blue background */
+    color: white;;
+    /* Dark blue text */
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(68, 114, 196);
+    /* Light blue border */
+    cursor: pointer;
+}
+
+.listD {
+    background-color: rgb(255, 0, 0);
+    /* Light blue background */
+    color: white;
+    /* Dark blue text */
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(255, 0, 0);
+    /* Light blue border */
+    cursor: pointer;
+}
+
+/* Hover effect for list items */
+.list-items div:hover {
+    opacity: 0.8;
+}
+
+/* Styles for the selected item */
+.list-items .selected {
+    border-color: #f00;
+    /* Red border for selected item */
+}

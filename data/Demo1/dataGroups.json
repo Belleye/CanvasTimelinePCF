@@ -1,0 +1,46 @@
+[
+    {
+        "id": "1",
+        "content": "Shop 1",
+        "nestedGroups": [
+            "Machine 1",
+            "Machine 2",
+            "Machine 3"
+        ],
+        "visible": true
+    },
+    {
+        "id": "Machine 1",
+        "content": "Machine 1"
+    },
+    {
+        "id": "Machine 2",
+        "content": "Machine 2"
+    },
+    {
+        "id": "Machine 3",
+        "content": "Machine 3"
+    },
+    {
+        "id": "2",
+        "content": "Shop 2",
+        "nestedGroups": [
+            "Machine 4",
+            "Machine 5",
+            "Machine 6"
+        ],
+        "visible": true
+    },
+    {
+        "id": "Machine 4",
+        "content": "Machine 4"
+    },
+    {
+        "id": "Machine 5",
+        "content": "Machine 5"
+    },
+    {
+        "id": "Machine 6",
+        "content": "Machine 6"
+    }
+]
