@@ -1,0 +1,7 @@
+pac pcf init --name CanvasTimelinePCF --namespace Belleye --template field
+npm i
+
+npm run build
+npm start watch
+    Ctrl C to quit
+pac pcf push 
