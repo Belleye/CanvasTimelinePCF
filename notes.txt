@@ -1,3 +1,5 @@
+
+
 pac pcf init --name CanvasTimelinePCF --namespace Belleye --template field
 npm i
 
@@ -5,3 +7,11 @@ npm run build
 npm start watch
     Ctrl C to quit
 pac pcf push 
+
+git status
+
+pac solution pack -z ..\SolutionZips\Unmanaged\timeline.zip
+
+
+msbuild /t:build /restore
+    --.NET Framework 4.8.1 for build
