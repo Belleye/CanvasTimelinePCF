@@ -2,10 +2,10 @@
 <ImportExportXml version="9.1.0.643" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <!-- Unique Name of Cds Solution-->
-    <UniqueName>pcfsolution</UniqueName>
+    <UniqueName>CanvasTimelinePCF</UniqueName>
     <LocalizedNames>
       <!-- Localized Solution Name in language code -->
-      <LocalizedName description="pcfsolution" languagecode="1033" />
+      <LocalizedName description="CanvasTimelinePCF" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
     <Version>1.0</Version>
@@ -23,7 +23,10 @@
         <Description description="belleye" languagecode="1033" />
       </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
+      <!-- 
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      -->
+      <SupportingWebsiteUrl>https://github.com/Belleye/CanvasTimelinePCF</SupportingWebsiteUrl>
       <!-- Customization Prefix for the Cds Publisher-->
       <CustomizationPrefix>belleye</CustomizationPrefix>
       <!-- Derived Option Value Prefix for the Customization Prefix of Cds Publisher -->
