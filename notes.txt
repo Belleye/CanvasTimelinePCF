@@ -6,12 +6,15 @@ npm i
 npm run build
 npm start watch
     Ctrl C to quit
+
+pac auth create --url https://org9f8df33a.crm6.dynamics.com
+
 pac pcf push 
 
 git status
 
-pac solution pack -z ..\SolutionZips\Unmanaged\timeline.zip
-
+pac solution pack -z ..\SolutionZips\Unmanaged\timeline.zip -p managed
+    https://powerusers.microsoft.com/t5/Power-Apps-Pro-Dev-ISV/MSbuild-error-while-packaging-PCF-solution-value-cannot-be-null/td-p/1433793/page/2
 
 msbuild /t:build /restore
     --.NET Framework 4.8.1 for build
