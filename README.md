@@ -31,7 +31,7 @@ Watch the speed run installation of the PCF on YouTube: [Speed Run Install PCF](
    ```
 2. Navigate to the project directory:
    ```
-   cd CanvasTimelinePCF
+   cd src
    ```
 3. Install dependencies:
    ```
