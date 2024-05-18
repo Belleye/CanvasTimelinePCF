@@ -18,3 +18,6 @@ pac solution pack -z ..\SolutionZips\Unmanaged\timeline.zip -p managed
 
 msbuild /t:build /restore
     --.NET Framework 4.8.1 for build
+
+https://microsoftlearning.github.io/PL-400_Microsoft-Power-Platform-Developer/Instructions/Labs/LAB%5BPL-400%5D_Lab09_PCF.html#exercise-3-export-and-import-solution
+https://itmustbecode.com/pcf-controls-custom-webpack-configurations/

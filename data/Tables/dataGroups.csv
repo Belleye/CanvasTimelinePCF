@@ -1,0 +1,13 @@
+id,content,nested,visible
+1,Shop 1,Machine 1,TRUE
+1,Shop 1,Machine 2,TRUE
+1,Shop 1,Machine 3,TRUE
+2,Shop 2,Machine 4,TRUE
+2,Shop 2,Machine 5,TRUE
+2,Shop 2,Machine 6,TRUE
+Machine 1,Machine 1,,
+Machine 2,Machine 2,,
+Machine 3,Machine 3,,
+Machine 4,Machine 4,,
+Machine 5,Machine 5,,
+Machine 6,Machine 6,,

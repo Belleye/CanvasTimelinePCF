@@ -1,0 +1,6 @@
+id,content,type,className,visClassName,duration,target
+1,Operating,range,listO,O,3600000,item
+2,Idle Time,range,listIT,IT,3600000,item
+3,Standby,range,listS,S,3600000,item
+4,Maintenance,range,listM,M,3600000,item
+5,Downtime,range,listD,D,3600000,item
