@@ -2,6 +2,14 @@
 
 CanvasTimelinePCF is a custom Power Apps component framework (PCF) control based on the vis-timeline library. It allows users to visualize and interact with time-based data within Power Apps Canvas.
 
+## Updates
+
+### 2024-05-21
+Added [DataverseSolution.zip](SolutionZips/DataverseSolution.zip), this will create dataverse tables required to deploy a connected app. The App has buttons that will populate with some inital data.<br>
+Added [Schema.md](data/Tables/Schema.md) describes the required tables and relationships to CSS styles
+
+
+
 ## Demo
 
 Watch the demo on YouTube: [CanvasTimelinePCF Demo](https://youtu.be/7gNuLQXbtyo)
