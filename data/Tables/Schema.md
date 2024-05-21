@@ -1,5 +1,5 @@
 # Data Schema
-This is the table schema of the 2nd published solution (PowerAppsToolsTemp_dev_1_1.zip).
+This is the table schema of the 2nd published solution (DataverseSolution.zip).
 
 ## DataGroups
 Data groups holds all the information for the left column of the Gantt, it contains individual items and parent grouping.
