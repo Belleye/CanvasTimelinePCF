@@ -6,7 +6,7 @@ Data groups holds all the information for the left column of the Gantt, it conta
 
 | Column Name | Data Type               | Comment                                                              |
 | ----------- | ----------------------- | -------------------------------------------------------------------- |
-| id          | Unique Single Line Text |                                                                      |
+| id          | Single Line Text |                                                                      |
 | content     | Single Line Text        | Displayed on the left column of the Gantt chart                      |
 | nested      | Single Line Text        | Lists the children under the item in the content column if not blank |
 | visible     | Boolean/Yes/No          | Applicable only if the nested column is not blank                    |
