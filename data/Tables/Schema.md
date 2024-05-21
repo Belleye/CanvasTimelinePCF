@@ -1,7 +1,7 @@
 # Data Schema
 This is the table schema of the 2nd published solution (DataverseSolution.zip).
 
-## DataGroups
+## dataGroups
 Data groups holds all the information for the left column of the Gantt, it contains individual items and parent grouping.
 
 | Column Name | Data Type               | Comment                                                              |
@@ -28,7 +28,7 @@ Example data
 | Machine 5 | Machine 5|          |         |
 | Machine 6 | Machine 6|          |         |
 
-## DataItems
+## dataItems
 Data items are all the events within the timeline
 
 | Column Name | Data Type               | Description                                                         |
@@ -50,7 +50,7 @@ Example data
 | M         | Maintenance(M) | TRUE     | 2024-05-17T22:56:36.958Z | Machine 2 | 1  | 2024-05-17T20:56:36.958Z | line1 \<br> line2 | range |
 | S         | Standby (S)    | TRUE     | 2024-05-17T22:56:36.959Z | Machine 3 | 2  | 2024-05-17T20:56:36.959Z | line1 \<br> line2 | range |
 
-## List Items
+## listItems
 List items are the draggable objects that can be placed on the Gantt
 
 | Column Name   | Data Type               | Description                                                                 |
