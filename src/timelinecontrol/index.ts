@@ -18,6 +18,7 @@ interface IInputs {
     optionStackSubgroups: ComponentFramework.PropertyTypes.TwoOptionsProperty;
     optionVerticalScroll: ComponentFramework.PropertyTypes.TwoOptionsProperty;
     optionHorizontalScroll: ComponentFramework.PropertyTypes.TwoOptionsProperty;
+    optionMaxHeight: ComponentFramework.PropertyTypes.WholeNumberProperty;
 
     listItems: ComponentFramework.PropertyTypes.StringProperty;
     listCSS: ComponentFramework.PropertyTypes.StringProperty;
@@ -40,6 +41,7 @@ interface TimelineOptions {
     horizontalScroll: boolean;
     autoResize: boolean;
     minHeight: number;
+    maxHeight: number;
     orientation: string;
     zoomKey: 'ctrlKey';
     width: string;
@@ -206,6 +208,7 @@ export class timelinecontrol implements ComponentFramework.StandardControl<IInpu
         const parentDiv = document.createElement('div');
         parentDiv.id = 'parent-container';
         parentDiv.style.display = 'flex';
+        
 
         // Create the list items container div
         const listItemsDiv = document.createElement('div');
@@ -449,6 +452,7 @@ export class timelinecontrol implements ComponentFramework.StandardControl<IInpu
             horizontalScroll: context.parameters.optionHorizontalScroll.raw !== null ? context.parameters.optionHorizontalScroll.raw : true,
             autoResize: true,
             minHeight: 100,
+            maxHeight: context.parameters.optionMaxHeight.raw || 400,
             orientation: 'both',
             zoomKey: 'ctrlKey' as const,
             width: '100%',

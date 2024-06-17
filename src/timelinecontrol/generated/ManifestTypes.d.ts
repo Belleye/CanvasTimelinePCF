@@ -16,6 +16,7 @@ export interface IInputs {
     optionStackSubgroups: ComponentFramework.PropertyTypes.TwoOptionsProperty;
     optionVerticalScroll: ComponentFramework.PropertyTypes.TwoOptionsProperty;
     optionHorizontalScroll: ComponentFramework.PropertyTypes.TwoOptionsProperty;
+    optionMaxHeight: ComponentFramework.PropertyTypes.WholeNumberProperty;
     listItems: ComponentFramework.PropertyTypes.StringProperty;
     listCSS: ComponentFramework.PropertyTypes.StringProperty;
 }

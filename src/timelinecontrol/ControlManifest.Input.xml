@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <manifest>
-  <control namespace="belleye" constructor="timelinecontrol" version="1.0.0" display-name-key="CanvasTimelinePCF" description-key="https://github.com/Belleye/CanvasTimelinePCF" control-type="standard" >
+  <control namespace="belleye" constructor="timelinecontrol" version="1.0.1" display-name-key="CanvasTimelinePCF" description-key="https://github.com/Belleye/CanvasTimelinePCF" control-type="standard" >
     
     <!--external-service-usage node declares whether this 3rd party PCF control is using external service or not, if yes, this control will be considered as premium and please also add the external domain it is using.
     If it is not using any external service, please set the enabled="false" and DO NOT add any domain below. The "enabled" will be false by default.
@@ -34,6 +34,7 @@
     <property name="optionStackSubgroups" display-name-key="Stack Sub-Groups" description-key="Stacking option for sub groups" of-type="TwoOptions" usage="input" required="false" />
     <property name="optionVerticalScroll" display-name-key="Vertical Scroll" description-key="Vertical scroll option" of-type="TwoOptions" usage="input" required="false" />
     <property name="optionHorizontalScroll" display-name-key="Horizontal Scroll" description-key="Horizontal scroll option" of-type="TwoOptions" usage="input" required="false" />
+    <property name="optionMaxHeight" display-name-key="Max Height" description-key="Max height of the timeline" of-type="Whole.None" usage="input" required="false" />
     
     <property name="listItems" display-name-key="List Items" description-key="List items that can dragged into the timeline, JSON format" of-type="SingleLine.Text" usage="bound" required="true" />
     <property name="listCSS" display-name-key="List Item CSS" description-key="List items CSS Formatting" of-type="SingleLine.Text" usage="bound" required="true" />
