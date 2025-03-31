@@ -312,6 +312,9 @@ export class timelinecontrol implements ComponentFramework.StandardControl<IInpu
             this.createTimelineData(context);
             this._timelineVis.setItems(this._timelineData);
             this._timelineJSON = JSON.stringify(this._timelineVis.itemsData.get());
+            // issue #2
+            this._removedJSON = "";
+            this._selectedItemId = "";
             this._notifyOutputChanged();
         }
 
@@ -427,10 +430,10 @@ export class timelinecontrol implements ComponentFramework.StandardControl<IInpu
      */
     public getOutputs(): IOutputs {
         return {
-            selectedItem: this._selectedItemId || undefined,
+            selectedItem: this._selectedItemId || "",
             timelineJSON: this._timelineJSON || undefined,
             selectedModifer: this._selectedModifier || undefined,
-            removedJSON: this._removedJSON || undefined
+            removedJSON: this._removedJSON || ""
         };
     }
 
